@@ -29,6 +29,19 @@ document.addEventListener('DOMContentLoaded', () => {
         setupAddToFavorites();
     };
 
+    const setupAddToFavorites = () => {
+        document.querySelectorAll('.add-to-favorites').forEach(button => {
+          button.addEventListener('click', () => {
+            const propertyId = button.getAttribute('data-id');
+            const favoriteProperty = properties.find(property => property.id == propertyId);
+            if (!favorites.includes(favoriteProperty)) {
+              favorites.push(favoriteProperty);
+              updateFavorites();
+            }
+          });
+        });
+    };
+
 
 
 
