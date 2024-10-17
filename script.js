@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
       .then(data => {
         properties = data;
         displayProperties(properties);
-      });
+    });
 
     const displayProperties = (propertyList) => {
         propertyGallery.innerHTML = '';
@@ -18,11 +18,11 @@ document.addEventListener('DOMContentLoaded', () => {
           const div = document.createElement('div');
           div.classList.add('property-item');
           div.innerHTML = `
-            <img src="/={property.image}" alt="/={property.location}">
-            <p>Location: /={property.location}</p>
-            <p>Price: /= /={property.price}</p>
-            <p>Rent: /= /={property.rent}/month</p>
-            <button class="add-to-favorites" data-id="/={property.id}">Add to Favorites</button>
+            <img src="${property.image}" alt="/={property.location}">
+            <p>Location: ${property.location}</p>
+            <p>Price: /= ${property.price}</p>
+            <p>Rent: /= ${property.rent}/month</p>
+            <button class="add-to-favorites" data-id="${property.id}">Add to Favorites</button>
           `;
           propertyGallery.appendChild(div);
         });
