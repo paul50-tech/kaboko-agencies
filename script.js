@@ -77,6 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     document.getElementById('contact-form').addEventListener('submit', event => {
         event.preventDefault();
+        alert('Message sent! We will get back to you shortly.');
         document.getElementById('contact-form').reset();
     });
 
