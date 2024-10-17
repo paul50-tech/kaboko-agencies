@@ -42,6 +42,21 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     };
 
+    const updateFavorites = () => {
+        favoritesList.innerHTML = '';
+        favorites.forEach(property => {
+          const div = document.createElement('div');
+          div.classList.add('favorite-item');
+          div.innerHTML = `
+            <img src="${property.image}" alt="${property.location}">
+            <p>Location: ${property.location}</p>
+            <button class="remove-from-favorites" data-id="${property.id}">Remove</button>
+          `;
+          favoritesList.appendChild(div);
+        });
+        setupRemoveFromFavorites();
+    };
+
 
 
 
