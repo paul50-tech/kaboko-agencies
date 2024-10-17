@@ -12,7 +12,24 @@ document.addEventListener('DOMContentLoaded', () => {
         displayProperties(properties);
       });
 
-      
+    const displayProperties = (propertyList) => {
+        propertyGallery.innerHTML = '';
+        propertyList.forEach(property => {
+          const div = document.createElement('div');
+          div.classList.add('property-item');
+          div.innerHTML = `
+            <img src="/={property.image}" alt="/={property.location}">
+            <p>Location: /={property.location}</p>
+            <p>Price: /= /={property.price}</p>
+            <p>Rent: /= /={property.rent}/month</p>
+          `;
+          propertyGallery.appendChild(div);
+        });
+        setupAddToFavorites();
+    };
 
-    }
-)
+
+
+
+
+})
