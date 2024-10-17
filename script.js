@@ -22,6 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <p>Location: /={property.location}</p>
             <p>Price: /= /={property.price}</p>
             <p>Rent: /= /={property.rent}/month</p>
+            <button class="add-to-favorites" data-id="/={property.id}">Add to Favorites</button>
           `;
           propertyGallery.appendChild(div);
         });
