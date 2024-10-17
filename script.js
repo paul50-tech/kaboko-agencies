@@ -75,5 +75,10 @@ document.addEventListener('DOMContentLoaded', () => {
         displayProperties(filteredProperties);
     });
 
+    document.getElementById('contact-form').addEventListener('submit', event => {
+        event.preventDefault();
+        document.getElementById('contact-form').reset();
+    });
+
 
 })
