@@ -1,0 +1,39 @@
+{
+    "properties": [
+      {
+        "id": 1,
+        "location": "Nairobi",
+        "price": 150000,
+        "rent": 800,
+        "image": "https://kenyahomes.co.ke/blog/wp-content/uploads/2019/09/MAISONETTE.jpg"
+      },
+      {
+        "id": 2,
+        "location": "Mombasa",
+        "price": 200000,
+        "rent": 1000,
+        "image": "https://www.capitalfm.co.ke/business/files/2014/01/HOUSE.jpg"
+      },
+      {
+        "id": 3,
+        "location": "Kisumu",
+        "price": 120000,
+        "rent": 750,
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/391233457.jpg?k=99ab0fb976d58ff015120f1633ec6cb8446e99d4ca546356697c8ed6b5278d47&o="
+      },
+      {
+        "id": 4,
+        "location": "Bungoma",
+        "price": 160000,
+        "rent": 950,
+        "image": "https://peopledaily.digital/wp-content/uploads/2020/02/home-768x452.jpg"
+      },
+      {
+        "id": 5,
+        "location": "siaya",
+        "price": 150000,
+        "rent": 900,
+        "image": "https://preview.redd.it/container-house-in-kenya-v0-kjop3tuf4hbb1.jpg?width=640&crop=smart&auto=webp&s=c83e337d56018aeaa9a4fe8a4e9ace5dd089bf4d"
+      }
+    ]
+  }
