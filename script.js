@@ -57,8 +57,15 @@ document.addEventListener('DOMContentLoaded', () => {
         setupRemoveFromFavorites();
     };
 
-
-
+    const setupRemoveFromFavorites = () => {
+        document.querySelectorAll('.remove-from-favorites').forEach(button => {
+          button.addEventListener('click', () => {
+            const propertyId = button.getAttribute('data-id');
+            favorites = favorites.filter(property => property.id != propertyId);
+            updateFavorites();
+          });
+        });
+    };
 
 
 })
