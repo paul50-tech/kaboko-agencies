@@ -67,5 +67,13 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     };
 
+    searchBar.addEventListener('input', () => {
+        const searchTerm = searchBar.value.toLowerCase();
+        const filteredProperties = properties.filter(property =>
+          property.location.toLowerCase().includes(searchTerm)
+        );
+        displayProperties(filteredProperties);
+    });
+
 
 })
