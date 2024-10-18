@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
           const div = document.createElement('div');
           div.classList.add('property-item');
           div.innerHTML = `
-            <img src="${property.image}" alt="/={property.location}">
+            <img src="${property.image}" alt="/=${property.location}">
             <p>Location: ${property.location}</p>
             <p>Price: Ksh ${property.price}</p>
             <p>Rent: Ksh ${property.rent}/month</p>
