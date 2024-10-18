@@ -20,8 +20,8 @@ document.addEventListener('DOMContentLoaded', () => {
           div.innerHTML = `
             <img src="${property.image}" alt="/={property.location}">
             <p>Location: ${property.location}</p>
-            <p>Price: /= ${property.price}</p>
-            <p>Rent: /= ${property.rent}/month</p>
+            <p>Price: Ksh ${property.price}</p>
+            <p>Rent: Ksh ${property.rent}/month</p>
             <button class="add-to-favorites" data-id="${property.id}">Add to Favorites</button>
           `;
           propertyGallery.appendChild(div);
@@ -82,6 +82,6 @@ document.addEventListener('DOMContentLoaded', () => {
         alert('Message sent! We will get back to you shortly.');
         document.getElementById('contact-form').reset();
     });
+});
 
 
-})
