@@ -8,13 +8,15 @@ body {
   header {
     background-color: #1f1f1f;
     color: white;
-    padding: 20px 0;
+    padding: 20px;
     text-align: center;
   }
   
   nav ul {
     list-style: none;
-    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
   }
   
   nav ul li {
