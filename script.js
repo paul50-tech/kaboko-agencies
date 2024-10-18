@@ -29,7 +29,10 @@ document.addEventListener('DOMContentLoaded', () => {
           const img = div.querySelector('img');
           img.addEventListener('mouseover', () => {
             img.style.transform = 'scale(1.1)';
-            img.style.transition = 'transform 0.3s ease';
+            img.style.transition = 'transform 0.5s ease';
+          });
+          img.addEventListener('mouseout', () => {
+            img.style.transform = 'scale(1)';
           });
         });
         setupAddToFavorites();
