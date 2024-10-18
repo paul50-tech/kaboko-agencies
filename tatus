@@ -1,0 +1,119 @@
+[33mcommit 45982de94f4abd99eeee94a690909b68ce7d288a[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Paul Jubilee Owuoth <pauljubilee50@gmail.com>
+Date:   Fri Oct 18 18:50:00 2024 +0300
+
+    initial commit
+
+[33mcommit 8c6de16547bd62da9371c6b68c78c7360c620652[m
+Author: Paul Jubilee Owuoth <pauljubilee50@gmail.com>
+Date:   Fri Oct 18 17:14:14 2024 +0300
+
+    zoom in the property images when the user hovers over them
+
+[33mcommit 75721c559eaecc4d3d06bec109b2ded2721d1ae9[m
+Author: Paul Jubilee Owuoth <pauljubilee50@gmail.com>
+Date:   Fri Oct 18 17:10:08 2024 +0300
+
+    try hover event listeners
+
+[33mcommit e340dd8a0061a5a26557c1c2aa4bbc2f90b8ed17[m
+Author: Paul Jubilee Owuoth <pauljubilee50@gmail.com>
+Date:   Fri Oct 18 17:03:15 2024 +0300
+
+    /= to Ksh
+
+[33mcommit 92fd369ac546005c105fdf2e4b21a16020201fb1[m
+Author: Paul Jubilee Owuoth <pauljubilee50@gmail.com>
+Date:   Fri Oct 18 16:57:30 2024 +0300
+
+    refactor for reusability
+
+[33mcommit f3d8a2d06a38c768af51cfa7fccfb31d4efacf2b[m
+Author: Paul Jubilee Owuoth <pauljubilee50@gmail.com>
+Date:   Fri Oct 18 16:47:41 2024 +0300
+
+    updete README.md
+
+[33mcommit dd9530779454b2580e9bff86005b362dc433bdf6[m
+Author: Paul Jubilee Owuoth <pauljubilee50@gmail.com>
+Date:   Fri Oct 18 16:39:31 2024 +0300
+
+    writes README.md
+
+[33mcommit cd2b88b874aae6465937903b1c5d12cd125a9f50[m
+Author: Paul Jubilee Owuoth <pauljubilee50@gmail.com>
+Date:   Fri Oct 18 07:36:35 2024 +0300
+
+    update all changes
+
+[33mcommit ac5a1a66c162fe040ab82776031dff3055797586[m
+Author: Paul Jubilee Owuoth <pauljubilee50@gmail.com>
+Date:   Fri Oct 18 00:54:05 2024 +0300
+
+    add db.json
+
+[33mcommit b5863015396e46514fcf7a77f9291e0a776ba54d[m
+Author: Paul Jubilee Owuoth <pauljubilee50@gmail.com>
+Date:   Thu Oct 17 21:37:17 2024 +0300
+
+    correct the project information
+
+[33mcommit ffe0aa0412bbc11a2fe7e78da60f239632cbdec2[m
+Author: Paul Jubilee Owuoth <pauljubilee50@gmail.com>
+Date:   Thu Oct 17 16:55:22 2024 +0300
+
+    add alert message during contact submission
+
+[33mcommit 54d62d8a1653cea918342875c1ecaebbb9cb570d[m
+Author: Paul Jubilee Owuoth <pauljubilee50@gmail.com>
+Date:   Thu Oct 17 16:53:30 2024 +0300
+
+    submit contact form
+
+[33mcommit e5b3e301911ae4d422b58df7d10f1881487675bb[m
+Author: Paul Jubilee Owuoth <pauljubilee50@gmail.com>
+Date:   Thu Oct 17 16:30:34 2024 +0300
+
+    implement search functionality
+
+[33mcommit da687419fefb20b9141f830592539d13db449f43[m
+Author: Paul Jubilee Owuoth <pauljubilee50@gmail.com>
+Date:   Thu Oct 17 16:18:45 2024 +0300
+
+    remove from favorites list
+
+[33mcommit 6371e19aa4b3bb2e49f781697a72fa50b9fee8bd[m
+Author: Paul Jubilee Owuoth <pauljubilee50@gmail.com>
+Date:   Thu Oct 17 13:07:04 2024 +0300
+
+    updates favourite list
+
+[33mcommit aad95506dbe028be8a60101e696a045669c51184[m
+Author: Paul Jubilee Owuoth <pauljubilee50@gmail.com>
+Date:   Thu Oct 17 10:16:50 2024 +0300
+
+    add to favourite list
+
+[33mcommit 29c8917ea96542b432adfc1562d7c143cca07f1e[m
+Author: Paul Jubilee Owuoth <pauljubilee50@gmail.com>
+Date:   Thu Oct 17 10:12:59 2024 +0300
+
+    favourite list
+
+[33mcommit 90f4d7a2830905b460b1991015f482b3f89c5a84[m
+Author: Paul Jubilee Owuoth <pauljubilee50@gmail.com>
+Date:   Thu Oct 17 09:59:42 2024 +0300
+
+    Properties are rendered as HTML elements and inserted into the DOM dynamically
+
+[33mcommit dcf9d100e6ea06ebd2fe1d702aa1382baca14cae[m
+Author: Paul Jubilee Owuoth <pauljubilee50@gmail.com>
+Date:   Thu Oct 17 09:38:05 2024 +0300
+
+    Load and Display Properties
+
+[33mcommit fefad85cd3e05ad3c102564128b5112411a87f0d[m
+Author: Paul Jubilee Owuoth <pauljubilee50@gmail.com>
+Date:   Thu Oct 17 00:09:49 2024 +0300
+
+    complete htmland css
