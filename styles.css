@@ -119,8 +119,7 @@ body {
     background-color: #333;
   }
   
-  /* General */
-body {
+ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
@@ -160,7 +159,6 @@ body {
     border-radius: 4px;
   }
   
-  /* Sections */
   section {
     padding: 40px 20px;
     margin: 20px auto;
@@ -170,7 +168,6 @@ body {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   }
   
-  /* Property Gallery & Favorites */
   #property-gallery, #favorites-list {
     display: flex;
     flex-wrap: wrap;
@@ -216,7 +213,6 @@ body {
     background-color: #333;
   }
   
-  /* Contact Form */
   #contact-form {
     display: flex;
     flex-direction: column;
