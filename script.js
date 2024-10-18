@@ -25,6 +25,12 @@ document.addEventListener('DOMContentLoaded', () => {
             <button class="add-to-favorites" data-id="${property.id}">Add to Favorites</button>
           `;
           propertyGallery.appendChild(div);
+
+          const img = div.querySelector('img');
+          img.addEventListener('mouseover', () => {
+            img.style.transform = 'scale(1.1)';
+            img.style.transition = 'transform 0.3s ease';
+          });
         });
         setupAddToFavorites();
     };
