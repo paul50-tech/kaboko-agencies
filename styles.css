@@ -119,5 +119,144 @@ body {
     background-color: #333;
   }
   
- {}
+  /* General */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  header {
+    background-color: #1f1f1f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    font-size: 18px;
+    padding: 5px 10px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    background-color: #333;
+    border-radius: 4px;
+  }
+  
+  /* Sections */
+  section {
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Property Gallery & Favorites */
+  #property-gallery, #favorites-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  
+  .property-item, .favorite-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .property-item:hover, .favorite-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .property-item img, .favorite-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #1f1f1f;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #333;
+  }
+  
+  /* Contact Form */
+  #contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  #contact-form input, #contact-form textarea {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  #contact-form button {
+    background-color: #1f1f1f;
+    color: white;
+    width: 150px;
+    align-self: center;
+  }
+  
+  #contact-form button:hover {
+    background-color: #333;
+  }
+  
+  @media (max-width: 768px) {
+    #property-gallery, #favorites-list {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .property-item, .favorite-item {
+      width: 100%;
+    }
+  
+    section {
+      padding: 30px 15px;
+    }
+}
+  
   
