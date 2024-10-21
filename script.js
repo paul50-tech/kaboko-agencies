@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let properties = [];
   let favorites = [];
 
-  fetch('http://localhost:3001/properties')
+  fetch('https://kaboko-agencies.herokuapp.com/properties')
       .then(response => response.json())
       .then(data => {
           properties = data;
