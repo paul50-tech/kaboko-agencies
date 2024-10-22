@@ -1,17 +1,13 @@
 {
   "name": "kaboko-agency-website",
   "version": "1.0.0",
-  "main": "script.js",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "scripts": {
+    "start": "json-server --watch db.json --port ${PORT:-3002}"
+  },
   "dependencies": {
     "json-server": "^0.16.3"
-  },
-  "scripts": {
-      "start": "json-server --watch db.json --port $PORT"
   }
 }
+
 
 
