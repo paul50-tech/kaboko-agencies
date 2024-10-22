@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let properties = [];
   let favorites = [];
 
-  fetch('http://localhost:3002/properties')
+  fetch('http://localhost:3003/properties')
       .then(response => response.json())
       .then(data => {
           properties = data;
@@ -91,20 +91,6 @@ document.addEventListener('DOMContentLoaded', () => {
       alert('Message sent! We will get back to you shortly.');
       document.getElementById('contact-form').reset();
   });
-  
-  const jsonServer = require('json-server');
-  const server = jsonServer.create();
-  const router = jsonServer.router('db.json');
-  const middlewares = jsonServer.defaults();
-  const port = process.env.PORT || 3001;
-
-  server.use(middlewares);
-  server.use(router);
-
-  server.listen(port, () => {
-    console.log('JSON Server is running');
-  });
-
 });
 
 

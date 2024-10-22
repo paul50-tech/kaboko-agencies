@@ -48,7 +48,7 @@ Make sure you have the following installed on your system:
 npm install -g json-server
 3. Start the JSON Server: Start the json-server to serve data from the db.json file by running:
 json-server --watch db.json --port 3001
-This will start a local server at http://localhost:3001/properties.
+This will start a local server at http://localhost:3003/properties.
 4. Open the Project in Your Browser: Open the index.html file in your preferred web browser to view and interact with the project.
 You can do this by:
 Simply double-clicking the index.html file in your project directory, or
